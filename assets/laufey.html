@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 12px 0;
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        background: linear-gradient(315deg, rgba(254,189,2,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+        animation: gradient 15s ease infinite;
+        background-size: 400% 400%;
+        background-attachment: fixed;
+    }
+    p {
+        font-size: 15px;
+    }
+    img {
+        height: 100%;
+        width: 100%;
+    }
+    p{
+        font-size: .8em;
+    }
+    .container {
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid;
+        cursor: pointer;
+        background: transparent;
+    }
+    .row {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+    }
+    .whole-shit {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .spin {
+        animation: spin 2s linear infinite;
+    }
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    @keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+</style>
+
+<body>
+    <div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+     </div>
+    <div class="whole-shit">
+    <div class="row">
+        <div id="falling">
+    <div class="container">
+        <div style="width: 100px; height: 80;">
+        <img  src="/pics/vinyl.png" alt="">
+    </div>
+    <p style="display: inline-block;margin: 4px 0 0 0;">Falling Behind</p>
+    </div>
+    </div>
+
+        <div id="bewitched">
+    <div class="container">
+        <div style="width: 100px; height: 80;">
+        <img  src="/pics/vinyl.png" alt="">
+    </div>
+    <p style="display: inline-block;margin: 4px 0 0 0;">Bewitched</p>
+    </div>
+</div>
+
+    <div id="bored">
+    <div class="container">
+        <div style="width: 100px; height: 80;">
+        <img  src="/pics/vinyl.png" alt="">
+    </div>
+    <p style="display: inline-block;margin: 4px 0 0 0;">Bored</p>
+    </div>
+</div>
+</div>
+
+<div class="row">
+    <div id="dreamer">
+    <div class="container">
+        <div style="width: 100px; height: 80;">
+        <img  src="/pics/vinyl.png" alt="">
+    </div>
+    <p style="display: inline-block;margin: 4px 0 0 0;">Dreamer</p>
+    </div>
+</div>
+
+    <div id="goddess">
+    <div class="container">
+        <div style="width: 100px; height: 80;">
+        <img  src="/pics/vinyl.png" alt="">
+    </div>
+    <p style="display: inline-block;margin: 4px 0 0 0;">Goddess</p>
+    </div>
+</div>
+
+    <div id="haunted">
+    <div class="container">
+        <div style="width: 100px; height: 80;">
+        <img  src="/pics/vinyl.png" alt="">
+    </div>
+    <p style="display: inline-block;margin: 4px 0 0 0;">Haunted</p>
+    </div>
+</div>
+</div>
+
+<div class="row">
+    <div id="letter">
+    <div class="container">
+        <div style="width: 100px; height: 80;">
+        <img  src="/pics/vinyl.png" alt="">
+    </div>
+    <p style="display: inline-block;margin: 4px 0 0 0;">Letter</p>
+    </div>
+</div>
+
+    <div id="lovesick">
+    <div class="container">
+        <div style="width: 100px; height: 80;">
+        <img  src="/pics/vinyl.png" alt="">
+    </div>
+    <p style="display: inline-block;margin: 4px 0 0 0;">Lovesick</p>
+    </div>
+</div>
+
+    <div id="onlymine">
+    <div class="container">
+        <div style="width: 100px; height: 80;">
+        <img  src="/pics/vinyl.png" alt="">
+    </div>
+    <p style="display: inline-block;margin: 4px 0 0 0;">Onlymine</p>
+    </div>
+</div>
+</div>
+
+<div class="row">
+    <div id="promise">
+    <div class="container">
+        <div style="width: 100px; height: 80;">
+        <img  src="/pics/vinyl.png" alt="">
+    </div>
+    <p style="display: inline-block;margin: 4px 0 0 0;">Promise</p>
+    </div>
+</div>
+
+    <div id="second">
+    <div class="container">
+        <div style="width: 100px; height: 80;">
+        <img  src="/pics/vinyl.png" alt="">
+    </div>
+    <p style="display: inline-block;margin: 4px 0 0 0;">Second Best</p>
+    </div>
+</div>
+
+    <div id="break">
+    <div class="container">
+        <div style="width: 100px; height: 80;">
+        <img  src="/pics/vinyl.png" alt="">
+    </div>
+    <p style="display: inline-block;margin: 4px 0 0 0;">Break my heart</p>
+    </div>
+</div>
+</div>
+
+<div class="row">
+    <div id="valentine">
+    <div class="container">
+        <div style="width: 100px; height: 80;">
+        <img  src="/pics/vinyl.png" alt="">
+    </div>
+    <p style="display: inline-block;margin: 4px 0 0 0;">Valentine</p>
+    </div>
+</div>
+
+    <div id="magnolia">
+    <div class="container">
+        <div style="width: 100px; height: 80;">
+        <img  src="/pics/vinyl.png" alt="">
+    </div>
+    <p style="display: inline-block;margin: 4px 0 0 0;">Magnolia</p>
+    </div>
+</div>
+
+<div id="beautiful">
+    <div class="container">
+        <div style="width: 100px; height: 80;">
+        <img  src="/pics/vinyl.png" alt="">
+    </div>
+    <p style="display: inline-block;margin: 4px 0 0 0;">Beautiful</p>
+    </div>
+</div>
+</div>
+</div>
+</body>
+<script src="laufey.js"></script>
+</html>
